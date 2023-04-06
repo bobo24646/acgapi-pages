@@ -14,7 +14,7 @@
     </div>
     <div class="container">
       <div class="well">
-        <p>目前系统共收录 3k8+ 张图片 API最后更新时间:2022-07-14</p>
+        <p>目前系统共收录 3k8+ 张图片 API最后更新时间:2023-04-06</p>
         <p>图片均为https，采用bobocloud智能存储，高速访问</p>
   <p>自判断二次元API基本调用格式：</p>
         <pre><a href="<?php $_SERVER['HTTP_HOST'] ?>/api.php" target="_blank"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/api.php</a></pre>
