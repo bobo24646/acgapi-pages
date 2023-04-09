@@ -29,6 +29,8 @@
         <pre>json/images</pre>
         <p>友情链接</p>
         <pre><a href="https://blog.bobocdn.tk/" target="_blank">bobo的博客</a></pre>
+        <p>cdn提供商</p>
+        <pre><a href="https://youziyun.com:60120/" target="_blank">柚子云</a></pre>
       </div>
     </div>
     <div class="bottom">
