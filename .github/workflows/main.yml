@@ -36,7 +36,7 @@ jobs:
       run: |
         curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
     - name: Login to IBM Cloud Foundry
-      run: ibmcloud login && ibmcloud target --cf
+      run: ibmcloud login -a https://cloud.ibm.com -u passcode -p ZQHmtkZINu && ibmcloud target --cf
 
     - name: Deploy Cloud Foundry App
       run: ibmcloud cf push
