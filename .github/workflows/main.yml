@@ -34,12 +34,9 @@ jobs:
 
     - name: Install Cloud Foundry CLI
       run: |
-        curl -fsSL "https://packages.cloudfoundry.org/stable?release=linux64-binary&version=v7&source=github" | tar -zxC /tmp
-        sudo install -m 755 /tmp/cf7 /usr/local/bin/cf
-        cf version
-
+        curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
     - name: Login to IBM Cloud Foundry
-      run: cf login -u passcode -p NUhw0Fy0ww
+      run: ibmcloud login && ibmcloud target --cf
 
     - name: Deploy Cloud Foundry App
-      run: cf push
+      run: ibmcloud cf push
